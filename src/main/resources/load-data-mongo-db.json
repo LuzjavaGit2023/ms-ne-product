@@ -1,0 +1,90 @@
+[
+  {
+    "productType": "Pasivo",
+    "productSubType": "Ahorro",
+    "label": "Cuenta de Ahorro",
+    "description": "libre de comision por mantenimiento y con un limite maximo de movimientos mensuales",
+    "feature": {
+      "commission": {
+        "free": true,
+        "cost": 0.0
+      },
+      "movement": {
+        "unlimited": false,
+        "quantityMaxim": 100,
+        "specificDay": false
+      }
+    }
+  },
+  {
+    "productType": "Pasivo",
+    "productSubType": "CuentaCorriente",
+    "label": "Cuenta Corriente",
+    "description": "posee comision por mantenimiento y sin limite de movimientos mensuales",
+    "feature": {
+      "commission": {
+        "free": false,
+        "cost": 0.8
+      },
+      "movement": {
+        "unlimited": true,
+        "quantityMaxim": 9999,
+        "specificDay": false
+      }
+    }
+  },
+  {
+    "productType": "Pasivo",
+    "productSubType": "PlazoFijo",
+    "label": "Plazo Fijo",
+    "description": "libre de comision por mantenimiento, solo permite un movimiento de retiro o deposito en un dia especifico del mes",
+    "feature": {
+      "commission": {
+        "free": true,
+        "cost": 0.0
+      },
+      "movement": {
+        "unlimited": false,
+        "quantityMaxim": 9999,
+        "specificDay": true,
+        "day": 30
+      }
+    }
+  },
+  {
+    "productType": "Activo",
+    "productSubType": "Personal",
+    "label": "Credito Personal",
+    "description": "se permite un solo credito por persona",
+    "feature": {
+      "credit" : {
+        "unlimited" : false,
+        "quantityMaxim" : 1
+      }
+    }
+  },
+  {
+    "productType": "Activo",
+    "productSubType": "Empresarial",
+    "label": "Credito Empresarial",
+    "description": "se permite mas de un credito por empresa",
+    "feature": {
+      "credit" : {
+        "unlimited" : true,
+        "quantityMaxim" : 9999
+      }
+    }
+  },
+  {
+    "productType": "Activo",
+    "productSubType": "TarjetaCredito",
+    "label": "Tarjeta de credito",
+    "description": "Tarjeta de credito personal o empresarial",
+    "feature": {
+      "credit" : {
+        "unlimited" : false,
+        "quantityMaxim" : 1
+      }
+    }
+  }
+]
