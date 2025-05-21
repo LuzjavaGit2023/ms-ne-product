@@ -1,7 +1,7 @@
 [
   {
     "productType": "Pasivo",
-    "productSubType": "Ahorro",
+    "productSubType": "SAVINGS_ACCOUNT",
     "label": "Cuenta de Ahorro",
     "description": "libre de comision por mantenimiento y con un limite maximo de movimientos mensuales",
     "feature": {
@@ -18,7 +18,7 @@
   },
   {
     "productType": "Pasivo",
-    "productSubType": "CuentaCorriente",
+    "productSubType": "CURRENT_ACCOUNT",
     "label": "Cuenta Corriente",
     "description": "posee comision por mantenimiento y sin limite de movimientos mensuales",
     "feature": {
@@ -35,7 +35,7 @@
   },
   {
     "productType": "Pasivo",
-    "productSubType": "PlazoFijo",
+    "productSubType": "FIXED_DEPOSIT",
     "label": "Plazo Fijo",
     "description": "libre de comision por mantenimiento, solo permite un movimiento de retiro o deposito en un dia especifico del mes",
     "feature": {
@@ -53,7 +53,7 @@
   },
   {
     "productType": "Activo",
-    "productSubType": "Personal",
+    "productSubType": "PERSONAL_LOAN",
     "label": "Credito Personal",
     "description": "se permite un solo credito por persona",
     "feature": {
@@ -65,7 +65,7 @@
   },
   {
     "productType": "Activo",
-    "productSubType": "Empresarial",
+    "productSubType": "BUSINESS_LOAN",
     "label": "Credito Empresarial",
     "description": "se permite mas de un credito por empresa",
     "feature": {
@@ -77,7 +77,7 @@
   },
   {
     "productType": "Activo",
-    "productSubType": "TarjetaCredito",
+    "productSubType": "CREDIT_CARD",
     "label": "Tarjeta de credito",
     "description": "Tarjeta de credito personal o empresarial",
     "feature": {
