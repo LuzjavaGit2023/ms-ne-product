@@ -1,12 +1,16 @@
 package pe.com.app.product.common.mapper;
 
-import pe.com.app.product.model.dto.*;
+import pe.com.app.product.model.dto.CommissionDto;
+import pe.com.app.product.model.dto.CreditDto;
+import pe.com.app.product.model.dto.FeatureDto;
+import pe.com.app.product.model.dto.MovementDto;
+import pe.com.app.product.model.dto.ProductDto;
 import pe.com.app.product.model.persistence.ProductEntity;
 
 public class ProductMapper {
 
     public static ProductDto buildDto(ProductEntity e) {
-        var product = ProductDto.builder()
+        final var product = ProductDto.builder()
                 .id(e.getId())
                 .productType(e.getProductType())
                 .productSubType(e.getProductSubType())
