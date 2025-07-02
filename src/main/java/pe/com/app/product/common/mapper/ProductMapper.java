@@ -35,6 +35,7 @@ public class ProductMapper {
                                 .unlimited(e.getFeature().getMovement().getUnlimited())
                                 .quantityMaxim(e.getFeature().getMovement().getQuantityMaxim())
                                 .specificDay(e.getFeature().getMovement().getSpecificDay())
+                                .cost(e.getFeature().getMovement().getCost())
                                 .build()
                 );
             }

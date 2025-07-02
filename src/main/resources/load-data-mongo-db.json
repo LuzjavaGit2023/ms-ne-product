@@ -12,7 +12,8 @@
       "movement": {
         "unlimited": false,
         "quantityMaxim": 100,
-        "specificDay": false
+        "specificDay": false,
+        "cost": 0.1
       }
     }
   },
@@ -29,7 +30,8 @@
       "movement": {
         "unlimited": true,
         "quantityMaxim": 9999,
-        "specificDay": false
+        "specificDay": false,
+        "cost": 0.1
       }
     }
   },
@@ -47,10 +49,30 @@
         "unlimited": false,
         "quantityMaxim": 9999,
         "specificDay": true,
-        "day": 30
+        "cost": 0.1
       }
     }
   },
+
+  {
+    "productType": "Pasivo",
+    "productSubType": "ELECTRONIC_MONEY",
+    "label": "Dinero Electronico",
+    "description": "Servicio P2P consu moneda virtual BootCoin",
+    "feature": {
+      "commission": {
+        "free": true,
+        "cost": 0.0
+      },
+      "movement": {
+        "unlimited": true,
+        "quantityMaxim": 100,
+        "specificDay": false,
+        "cost": 0.0
+      }
+    }
+  },
+
   {
     "productType": "Activo",
     "productSubType": "PERSONAL_LOAN",

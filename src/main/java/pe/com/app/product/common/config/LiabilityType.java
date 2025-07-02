@@ -6,7 +6,8 @@ import com.fasterxml.jackson.annotation.JsonValue;
 public enum LiabilityType {
     SavingsAccount("CuentaAhorro"),
     CurrentAccount("CuentaCorriente"),
-    FixedDeposit("PlazoFijo");
+    FixedDeposit("PlazoFijo"),
+    ElectronicMoney("DineroElectronico");
 
     private final String description;
 
